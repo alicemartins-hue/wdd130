@@ -17,7 +17,7 @@ body {
     font-family: var(--text-font);
     font-weight: 400;
     color: var(--accent1-color);
-    width: 960px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -51,20 +51,27 @@ img {
     opacity: 0.9;
 }
 
-h1 {
-    font-family: var(--heading-font);
-    font-weight: 100;
-    color: var(--accent2-color);
-}
-
 div {
     position: relative;
 
 }
 
 div h1{
+    font-family: var(--heading-font);
+    font-weight: 100;
+    font-size: 80px;
+    color: var(--primary-color);
+    width: 100%;
     position: absolute;
-
+    display:block;
+    text-align: center;
+    height: 15%;
+    top: 0;
+    padding: 10 0px;
+    top: -28px;
+    background-color: var(--accent3-color);
+    text-shadow: 2px 2px 2px #023047;
+    opacity: 0.8;
 }
 
 div article{
