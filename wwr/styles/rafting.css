@@ -37,18 +37,17 @@ header nav{
 }
 
 /*Logo*/
-img {
+header img {
     width: 135px;
     height: auto;
     position:relative;
 }
 
 /*main*/
-.hero img{
+div img{
     display: block;
     width: 100%;
     height: auto;
-    opacity: 0.9;
 }
 
 div {
@@ -59,30 +58,43 @@ div {
 div h1{
     font-family: var(--heading-font);
     font-weight: 100;
-    font-size: 80px;
+    font-size: 60px;
     color: var(--primary-color);
     width: 100%;
     position: absolute;
     display:block;
     text-align: center;
-    height: 15%;
-    top: 0;
+    height: 7%;
     padding: 10 0px;
-    top: -28px;
+    top: -15px;
     background-color: var(--accent3-color);
     text-shadow: 2px 2px 2px #023047;
-    opacity: 0.8;
-}
-
-div article{
-    position:absolute;
-    background-color: var(--accent3-color);
-    opacity: 0.8;
-
+    opacity: 0.9;
 }
 
 article img{
-    float:right;
+    position: absolute; 
+    bottom: 100px;
+    height: auto;
+    width: 175px;
+    left: 737px;
+    bottom: 945px;
+    display: block;
+    border: 25px var(--accent3-color);
+    z-index: 2;
+}
 
+article p{
+    position: relative;
+    background-color: var(--accent3-color);
+    opacity: 0.9;
+    display: inline-block;
+    width: 500px;
+    bottom: 720px;
+    padding: 20px 230px 40px 20px;
+    text-align: left;
+    margin: 200px;
+    color: var(--accent1-color);
+    z-index: 1;
 }
 
