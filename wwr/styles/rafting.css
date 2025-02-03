@@ -48,6 +48,7 @@ div img{
     display: block;
     width: 100%;
     height: auto;
+    z-index: 1;
 }
 
 div {
@@ -64,7 +65,7 @@ div h1{
     position: absolute;
     display:block;
     text-align: center;
-    height: 7%;
+    height: 13%;
     padding: 10 0px;
     top: -15px;
     background-color: var(--accent3-color);
@@ -72,36 +73,42 @@ div h1{
     opacity: 0.9;
 }
 
+
+article{
+    position: relative;
+}
+
 article img{
     position: absolute; 
-    bottom: 100px;
     height: auto;
     width: 175px;
     left: 737px;
-    bottom: 945px;
+    top: -510px;
     display: block;
     border: 25px var(--accent3-color);
-    z-index: 2;
+    z-index: 3;
 }
 
 article p{
-    position: relative;
+    position: absolute;
     background-color: var(--accent3-color);
     opacity: 0.9;
     display: inline-block;
     width: 500px;
-    bottom: 720px;
+    top: -730px;
     padding: 20px 230px 40px 20px;
     text-align: left;
     margin: 200px;
     color: var(--accent1-color);
-    z-index: 1;
+    z-index: 2;
 }
+
+
+
 
 section{
     margin-top: 0px;
     margin-bottom: 0px;
-    bottom: 200px;
 }
 
 section img{
@@ -109,7 +116,6 @@ section img{
     width: 60%;
     height: auto;
     margin-top: 0px;
-    margin-bottom: 0px;
 
 }
 
