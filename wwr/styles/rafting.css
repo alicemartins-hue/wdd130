@@ -29,6 +29,7 @@ header a{
     text-decoration: none;
     color: gray;
     float: right;
+    margin: 3px;
 }
 header nav{
     position:absolute;
