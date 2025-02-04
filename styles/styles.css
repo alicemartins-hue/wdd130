@@ -33,8 +33,9 @@ nav a {
 
 h1 {
     color: var(--heading-background-color);
-    margin-bottom: 20px;
-    bottom: border-box;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--heading-background-color);
+    padding: 1rem;
 }
 
 main img {
@@ -60,27 +61,26 @@ p {
 }
 
 main {
-    grid-column: 20rem;
+    grid-column: 2;
     margin: 1rem;
 }
 
 aside{
     width: 20rem;
     position: relative;
-    transform: translateX(-275px);
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
 aside p{
-    text-align: center;
+    text-align: left;
 }
 
 aside h2{
     position: absolute;
-    top: 60px;
-    left: 98px;
-    color:#f7f2f2;
+    top: 45px;
+    left: 85px;
+    color: white; text-shadow: black 0.2em 0.2em 0.1em;
 }
 
 aside img {
