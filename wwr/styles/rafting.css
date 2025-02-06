@@ -86,8 +86,9 @@ div h1{
     height: 12%;
     padding: 10px 0px;
     top: -15px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent3-color);
     text-shadow: 2px 2px 2px #023047;
+    opacity: 0.9;
 }
 
 
@@ -108,7 +109,7 @@ article img{
 
 article p{
     position: absolute;
-    background-color: #8ed4e6;
+    background-color: var(--accent3-color);
     opacity: 0.9;
     display: inline-block;
     width: 500px;
