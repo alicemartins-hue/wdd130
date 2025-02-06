@@ -23,33 +23,37 @@ body {
 }
 
 /* Header */
-
 header {
     display: grid;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
 }
+
 /*Links*/
 header a{
     text-decoration: none;
-    color: rgb(39, 35, 35);
+    color: var(--primary-color);
     margin: 10px;
 
 }
 
 header nav{
-    position:absolute;
-    top: 50px;
-    right: 100px;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr;
-    background-color: gray;
     align-items: center;
-    
+    justify-content: space-between;
+    display: flex;
+
 }
 
 /*Logo*/
 header img {
-    width: 135px;
+    display: flex;
+    display: grid;
+    width: 200px;
     height: auto;
-    position:relative;
+    align-self: center;
+    justify-content: space-around;
+    grid-column: 1/2;
 }
 
 /*main*/
@@ -82,9 +86,8 @@ div h1{
     height: 12%;
     padding: 10px 0px;
     top: -15px;
-    background-color: var(--accent3-color);
+    background-color: var(--accent1-color);
     text-shadow: 2px 2px 2px #023047;
-    opacity: 0.9;
 }
 
 
@@ -105,7 +108,7 @@ article img{
 
 article p{
     position: absolute;
-    background-color: var(--accent3-color);
+    background-color: #8ed4e6;
     opacity: 0.9;
     display: inline-block;
     width: 500px;
@@ -219,10 +222,29 @@ section{
 
 
 /*Footer*/
-nav{
-    display:flex;
+.footer{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+
+footer p{
+    text-align: center;
+    justify-content: center;
+    grid-column: 1/4;
+
+}
+
+footer nav{
+    display: flex;
     text-decoration: none;
-    float: right;
+    align-items: center;
+    justify-content: center;
+
+
+
 
 }
 
@@ -244,5 +266,6 @@ nav img{
     z-index: -1;
     opacity: 0.5;
 }
+
 
 
