@@ -49,7 +49,7 @@ header nav{
 header img {
     display: flex;
     display: grid;
-    width: 200px;
+    width: 170px;
     height: auto;
     align-self: center;
     justify-content: space-around;
@@ -230,7 +230,7 @@ section{
   }
   
   .image-box figcaption{
-    font-size: large;
+    font-size: medium;
     font-weight: 500;
     margin-top: 5px;
     text-align: center;
@@ -268,9 +268,6 @@ footer nav{
     align-items: center;
     justify-content: center;
 
-
-
-
 }
 
 nav img{
@@ -292,5 +289,51 @@ nav img{
     opacity: 0.5;
 }
 
+/*Contact Page*/
+.gradeofemployers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.happyemployers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    justify-items: space-between;
+    align-items: center;
+    grid-area: 1/2;
+}
+
+.employers{
+    display: grid;
+    width: 230px;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+
+}
+
+.employers figcaption{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 5px;
+    justify-self: center;
+    
+  
+  }
+
+  .employers img{
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
 
 
