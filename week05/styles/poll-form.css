@@ -44,7 +44,19 @@ form {
     gap: 10px;
     margin-bottom: 70px;
     margin-top: 20px;
+}
 
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
 }
 
 .contact {
@@ -67,12 +79,13 @@ button {
     grid-column-start: 2;
     grid-row-start: 3;
     background-color: rgba(20, 88, 8, 0.5);
-    border: 2px solid #000;
+    border: none;
     border-radius: 200px;
     padding: 5px 10px;
     font-size: 1rem;
     margin-top: 10px;
     align-self: start;
+    margin: 1rem;
 }
 
 header {
@@ -93,4 +106,19 @@ h1 {
 }
 .pet{
     margin: 10px 0px 20px 0px;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+
+}
+
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: #777;
+    border-top: 1px solid #ccc;
 }
