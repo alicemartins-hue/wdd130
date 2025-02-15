@@ -19,7 +19,7 @@ body {
     color: var(--accent1-color);
     margin: 0 auto;
     padding: 0 auto;
-    margin: 10px 50px 10px 50px;
+    margin: 0px 50px 10px 50px;
 }
 
 /* Header */
@@ -29,6 +29,9 @@ header {
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     padding: 0px 30px 0px 30px;
+    border-left: 1px solid var(--accent3-color);
+    border-right: 1px solid var(--accent3-color);
+    background-color: #8ecae666;
 }
 
 header h1{
@@ -469,3 +472,135 @@ textarea{
     margin-bottom: 10px;
 }
 
+/*Home Page*/
+
+.hero h3{
+    display: block;
+    position: absolute;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-shadow: 1px 1px 1px rgb(255, 255, 0);
+    padding: 30px;
+    top: 90px;
+    left: 240px;
+    width: 60%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.bestplaces{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.titleplace h4{
+    margin-top: -90px;
+    font-size: 50px;
+    text-align: center;
+}
+.titleplace p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.title h5{
+    font-size: larger;
+    text-align: center;
+    grid-column: 1/3;
+}
+.galerie1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    column-gap: 20px;
+    margin-bottom: 60px;
+    padding-left: 30px;
+
+}
+
+.image-box1{
+    height: auto;
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .image-box1 figcaption{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: -25px;
+  
+  }
+  
+  .image-box1 img{
+    width: 556px;
+    height: 397px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  
+  }
+
+  .adventures2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 370px;
+}
+
+.galerie2{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    column-gap: 20px;
+    margin-bottom: 60px;
+    padding-left: 60px;
+
+}
+
+.image-box2{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .image-box2 figcaption{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: center;
+  
+  }
+  
+  .image-box2 img{
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  
+  }
+
+  .toaction{ 
+    display: grid;
+    justify-content: center;
+  }
+  .toaction p{
+    font-size: 20px;
+    text-align: center;
+  }
+  .toaction a{
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-size: 20px;
+    margin-top: -20px;
+    justify-items: center;
+    margin-bottom: 30px;
+  }
