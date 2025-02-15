@@ -336,4 +336,86 @@ nav img{
     align-items: center;
   }
 
+/* Contact Form*/
+.contactform{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+legend{
+    font-size: medium;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.name, .email{
+    padding: 3px;
+    font-size: small;
+    margin-top: -15px;
+}
+
+.name input, .email input{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--accent1-color);
+    border-color: #5795b4d6;
+}
+
+.email{
+    margin-top: -40px;
+    margin-bottom: -5px;
+}
+
+
+.purpose select{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: x-small;
+    background-color: rgba(87, 149, 180, 0.329);
+    color: var(--accent1-color);
+}
+
+textarea{
+    margin-top: -10px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #5795b4d6;
+    margin-bottom: 20px;
+}
+
+.newsletter{
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.buttonstyle{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    background-color:  rgba(87, 149, 180, 0.489);
+    padding: 3px;
+    color: var(--accent1-color);
+    font-size: small;
+    margin-top: 10px;
+}
 
