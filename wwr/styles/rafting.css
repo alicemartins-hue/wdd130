@@ -758,3 +758,7 @@ textarea{
     text-shadow: 3px 3px 3px#7f580e;
     color: aliceblue;
   }
+
+  .this{
+    border: 30px solid white;
+  }
