@@ -604,3 +604,157 @@ textarea{
     justify-items: center;
     margin-bottom: 30px;
   }
+
+  /*Trip page*/
+.tripspage{
+    background-color: #219dbc45;
+
+}
+
+.tripimg{
+    height: 250px;
+    margin-bottom: -100px;
+}
+
+.hero2 h2{
+    font-family: var(--heading-font);
+    font-weight: 90;
+    font-size: 50px;
+    color: var(--accent1-color);
+    width: 100%;
+    position: absolute;
+    display:block;
+    text-align: center;
+    height: 45%;
+    top: 15px;
+    padding: 10px 0px;
+    background-color: var(--accent3-color);
+    margin-top: 15px;
+}
+
+  .calltoaction{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+
+  }
+  .calltoaction h3{
+    font-size: 30px;
+    text-align: center;
+    grid-column: 1;
+  }
+  .calltoaction p{
+    grid-column: 1;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -15px;
+    margin-bottom: 4px
+  }
+  .calltoaction img{
+    grid-column: 1;
+    width: 650px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 340px;
+    padding-top: 20px;
+  }
+  .backgroundtoaction a{
+    grid-column: 1;
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: none;
+    padding-left: 620px;
+  }
+
+  .itwastobeatitle{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+  }
+
+  .becauseineedto{
+    text-align: center;
+    font-size: medium;
+    background-color: aliceblue;
+    margin-top: -55px;
+    padding: 15px;
+    padding-bottom: 23px;
+  }
+
+  .trip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .trip h4,p{
+    grid-column: 2;
+    margin-left: -20px;
+
+
+  }
+.trip h4{
+    margin-top: 90px;
+}
+.trip p{
+    margin-left:  10px;
+    text-shadow: 3px 3px 3px aliceblue;
+}
+  .tripimg2{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px #023047;
+    align-items: center;
+    justify-items: center;
+    grid-column: 1;
+    padding: 10px;
+    margin: 20px 20px 20px 320px;
+
+  }
+
+
+  .pleasecenter{
+    margin-right: -92px;
+  }
+
+  .theend{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #d58234bd;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+  }
+
+  .first{
+    font-size: 40px;
+  }
+  .theend2{
+    font-size: 50px;
+    margin-top: -70px;
+    color: aliceblue;
+  }
+  .theend3{
+    font-size: 50px;
+    margin-top: -110px;
+    color: aliceblue;
+  }
+  .theend4{
+    font-size: 40px;
+    margin-top:  -70px;
+  }
+  .theend5{
+    font-size: 60px;
+    margin-top: -80px;
+    text-shadow: 3px 3px 3px#7f580e;
+    color: aliceblue;
+  }
