@@ -330,6 +330,7 @@ nav img{
     font-size: medium;
     color: var(--accent2-color);
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 address{
@@ -341,7 +342,7 @@ address{
 .addresstext{
     border-left: 3px solid #c47424;
     background-color: #e6b68eaa;
-    padding-left: 15px ;
+    padding-left: 35px ;
     padding-right: 70px;
     padding-bottom: 40px;
 }
