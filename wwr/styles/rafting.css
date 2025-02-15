@@ -27,7 +27,7 @@ header {
     display: grid;
     display: flex;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /*Links*/
@@ -47,13 +47,9 @@ header nav{
 
 /*Logo*/
 header img {
-    display: flex;
-    display: grid;
-    width: 170px;
+    width: 130px;
     height: auto;
-    align-self: center;
-    justify-content: space-around;
-    grid-column: 1/2;
+
 }
 
 /*main*/
@@ -74,7 +70,7 @@ div {
 
 }
 
-div h1{
+.hero h1{
     font-family: var(--heading-font);
     font-weight: 100;
     font-size: 60px;
@@ -289,7 +285,50 @@ nav img{
     opacity: 0.5;
 }
 
+
+
 /*Contact Page*/
+.contactpage{
+    background-color: #f8a03c4e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contactus h1{
+    font-family: var(--heading-font);
+    font-weight: 100;
+    font-size: 60px;
+    color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 10px 0px;
+    background-color: var(--accent3-color);
+    text-shadow: 2px 2px 2px #023047;
+    opacity: 0.9;
+    margin-top: 0px;
+}
+
+.contactus h2{
+    font-size: medium;
+    color: var(--accent2-color);
+    padding-bottom: 20px;
+}
+
+address{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.addresstext{
+    border-left: 3px solid #c47424;
+    background-color: #e6b68eaa;
+    padding-left: 15px ;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+
 .gradeofemployers{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -344,13 +383,12 @@ nav img{
     align-items: center;
     padding: 10px;
     justify-content: center;
+    background-color: rgba(180, 138, 87, 0.329);
+
 }
 
+
 form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 
@@ -358,6 +396,7 @@ legend{
     font-size: medium;
     font-weight: 500;
     padding: 10px;
+    text-align: center;
 }
 
 .name, .email{
@@ -371,7 +410,7 @@ legend{
     height: 20px;
     border-radius: 5px;
     border: 1px solid var(--accent1-color);
-    border-color: #5795b4d6;
+    border-color: #b47857d6;
 }
 
 .email{
@@ -388,7 +427,7 @@ legend{
     margin-bottom: 10px;
     margin-top: 5px;
     font-size: x-small;
-    background-color: rgba(87, 149, 180, 0.329);
+    background-color: rgba(180, 137, 87, 0.303);
     color: var(--accent1-color);
 }
 
@@ -396,7 +435,7 @@ textarea{
     margin-top: -10px;
     width: 100%;
     border-radius: 5px;
-    border-color: #5795b4d6;
+    border-color: #b47957d6;
     margin-bottom: 20px;
 }
 
@@ -412,7 +451,7 @@ textarea{
     align-items: center;
     border-radius: 15px;
     border: none;
-    background-color:  rgba(87, 149, 180, 0.489);
+    background-color:  rgba(180, 127, 87, 0.489);
     padding: 3px;
     color: var(--accent1-color);
     font-size: small;
